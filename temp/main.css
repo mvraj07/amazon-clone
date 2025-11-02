@@ -7,19 +7,22 @@ body {
   width: 100vw;
   height: 100vh;
 }
-.heading {
-  background-image: url("../amazon/public/images/amazon\ logo.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: max-content;
+.parent {
+  background-color: blueviolet;
+  width: 100%;
   height: 500px;
-  background-attachment: fixed;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-content: center;
+  filter: blur();
+  -webkit-filter: blur();
 }
-.heading2 {
-  background-image: url("../amazon/public/images/amazon\ logo.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: max-content;
-  height: 500px;
-  background-attachment: scro;
+.child {
+  flex-basis: 150px;
+  height: 100px;
+  border: 2px solid white;
+  flex-grow: 1;
+  background-image: linear-gradient(to right, blue, red);
 }
