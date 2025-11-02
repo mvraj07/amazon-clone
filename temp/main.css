@@ -4,17 +4,22 @@
   box-sizing: border-box;
 }
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 .heading {
   background-image: url("../amazon/public/images/amazon\ logo.png");
-  background-color: red;
-  height: 100vh;
-  background: sticky;
-  align-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: max-content;
+  height: 500px;
+  background-attachment: fixed;
 }
 .heading2 {
-  background-color: blue;
-  height: 100vh;
+  background-image: url("../amazon/public/images/amazon\ logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: max-content;
+  height: 500px;
+  background-attachment: scro;
 }
